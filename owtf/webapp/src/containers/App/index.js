@@ -151,7 +151,7 @@ function PrivateRoute({ component: Component, authenticated, ...rest }) {
 
 App.propTypes = {
   tryAutoLogin: PropTypes.func,
-  isAuthenticated: PropTypes.string
+  isAuthenticated: PropTypes.bool
 };
 
 const mapStateToProps = createStructuredSelector({
